@@ -1,0 +1,39 @@
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore image files (optional, if you don't want to track them)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.txt
+
+# Ignore environment files
+.env
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build output
+/dist/
+/build/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore npm debug files
+npm-debug.log*
+
+# Ignore any temporary files
+*.tmp
+*.swp
+
+# Local data store (optional)
+data/tasks.json

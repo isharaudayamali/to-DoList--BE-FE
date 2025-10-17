@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beautiful and functional to-do list app to manage your tasks efficiently">
+    <title>To-Do List | Stay Organized</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="stat-container">
+            <div class="details">
+                <h1>To-Do List</h1>
+                <p>Stay organized and productive ✨</p>
+                <div id="progressbar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-numbers">
+                <p id="numbers">0/0</p>
+            </div>
+        </div>
+        <form id="taskForm">
+            <div class="form-inputs">
+                <input type="text" id="taskInput" placeholder="What needs to be done?" autocomplete="off" required>
+                <input type="date" id="dueDateInput" placeholder="Due date (optional)">
+            </div>
+            <button id="newtask" type="submit" aria-label="Add task">+</button>
+        </form>
+
+        <!-- Task list will be rendered here by app.js -->
+        <ul id="taskItem"></ul>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
