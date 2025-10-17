@@ -28,6 +28,7 @@ Your app is now a **static website** that can be hosted **FREE** on multiple pla
 6. Wait 1-2 minutes
 
 ### Your Live URL:
+
 ```
 https://isharaudayamali.github.io/to-DoList--BE-FE/
 ```
@@ -82,18 +83,19 @@ Get URL like: `https://your-app.surge.sh`
 
 ## 📊 Comparison
 
-| Platform | Speed | Free SSL | Custom Domain | Auto-Deploy |
-|----------|-------|----------|---------------|-------------|
-| **GitHub Pages** | Fast | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Netlify** | Fastest | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Vercel** | Fast | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Surge** | Fast | ✅ Yes | ⚠️ Paid | ❌ No |
+| Platform         | Speed   | Free SSL | Custom Domain | Auto-Deploy |
+| ---------------- | ------- | -------- | ------------- | ----------- |
+| **GitHub Pages** | Fast    | ✅ Yes   | ✅ Yes        | ✅ Yes      |
+| **Netlify**      | Fastest | ✅ Yes   | ✅ Yes        | ✅ Yes      |
+| **Vercel**       | Fast    | ✅ Yes   | ✅ Yes        | ✅ Yes      |
+| **Surge**        | Fast    | ✅ Yes   | ⚠️ Paid       | ❌ No       |
 
 ---
 
 ## 🎯 Recommended: GitHub Pages
 
 **Why?**
+
 - Already connected to your repo
 - Free forever
 - Auto-updates on `git push`
@@ -155,14 +157,17 @@ Start-Process "index.html"
 ## 🐛 Troubleshooting
 
 **Tasks not persisting?**
+
 - Check browser localStorage is enabled
 - Open DevTools (F12) → Application → Local Storage
 
 **App not loading on GitHub Pages?**
+
 - Wait 2-3 minutes after enabling Pages
 - Check: https://github.com/isharaudayamali/to-DoList--BE-FE/deployments
 
 **Need help?**
+
 - Check README.md
 - Open browser console (F12) for errors
 
@@ -171,6 +176,7 @@ Start-Process "index.html"
 ## 📱 Share Your App
 
 Once deployed, share the URL:
+
 ```
 https://isharaudayamali.github.io/to-DoList--BE-FE/
 ```

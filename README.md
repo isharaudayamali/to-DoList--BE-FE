@@ -5,6 +5,7 @@ A beautiful, lightweight To-Do app built with **Bootstrap 5**, **vanilla JavaScr
 ## ✨ Features
 
 ### Core Functionality
+
 - ✅ **Add Tasks** - Create tasks with optional due dates
 - ✏️ **Edit Tasks** - Update task text anytime
 - ✔️ **Complete Tasks** - Mark tasks as done with visual feedback
@@ -12,6 +13,7 @@ A beautiful, lightweight To-Do app built with **Bootstrap 5**, **vanilla JavaScr
 - 📊 **Progress Tracking** - Real-time completion percentage with animated progress bar
 
 ### Time Management
+
 - 📅 **Creation Timestamps** - Smart time formatting (Just now, 5m ago, 2h ago, Oct 17)
 - ⏰ **Due Dates** - Optional date picker with color-coded priority badges:
   - 🔴 **Overdue** - Red gradient for past due dates
@@ -21,6 +23,7 @@ A beautiful, lightweight To-Do app built with **Bootstrap 5**, **vanilla JavaScr
   - ⚪ **Future** - Light purple for 7+ days
 
 ### Modern UI/UX
+
 - 🎨 **Gradient Design** - Beautiful purple gradient background
 - 💎 **Glass-morphism** - Frosted glass effects with backdrop blur
 - ✨ **Smooth Animations** - Slide-in effects, hover states, and transitions
@@ -33,6 +36,7 @@ A beautiful, lightweight To-Do app built with **Bootstrap 5**, **vanilla JavaScr
 **No installation needed!** Just open `index.html` in any browser:
 
 1. **Clone the repository:**
+
    ```powershell
    git clone https://github.com/isharaudayamali/to-DoList--BE-FE.git
    cd to-DoList--BE-FE
@@ -45,6 +49,7 @@ A beautiful, lightweight To-Do app built with **Bootstrap 5**, **vanilla JavaScr
 ## 🌐 Deploy Your App (Free!)
 
 ### Option 1: GitHub Pages (Easiest)
+
 ```powershell
 # Push your code
 git add .
@@ -57,11 +62,13 @@ git push origin main
 ```
 
 ### Option 2: Netlify (Drag & Drop)
+
 1. Go to [netlify.com](https://netlify.com)
 2. Drag your project folder
 3. Done! Get instant live URL
 
 ### Option 3: Vercel
+
 ```powershell
 npm install -g vercel
 vercel
@@ -81,16 +88,19 @@ to-DoList--BE-FE/
 ## 🎨 UI Components
 
 ### Header Card
+
 - Task count and completion stats
 - Animated progress bar
 - Circular completion badge with hover effect
 
 ### Task Input Form
+
 - Text input for task name
 - Date picker for optional due date
 - Gradient button with lift animation
 
 ### Task List
+
 - Checkbox for completion toggle
 - Creation timestamp with smart formatting
 - Color-coded due date badges
@@ -127,9 +137,11 @@ Tasks are stored in **browser localStorage** with this schema:
 ```
 
 ### Clear All Tasks
+
 Open browser console (F12) and run:
+
 ```javascript
-localStorage.removeItem('tasks');
+localStorage.removeItem("tasks");
 location.reload();
 ```
 
