@@ -17,3 +17,21 @@ h1{color:#5a3a7a;font-weight:700}
 .bg-success{background:linear-gradient(135deg,#2ecc71,#27ae60)!important}
 .bg-secondary{background:rgba(102,126,234,.15)!important;color:#667eea!important}
 @media(max-width:768px){.card-body{padding:1.5rem!important}h1{font-size:1.8rem}}
+
+/* Grid layout for card body: responsive two-column -> single column */
+.card-body{display:grid;grid-template-columns:1fr 260px;grid-template-areas:"header header" "form form" "list stats";gap:1rem;align-items:start}
+.grid-header{grid-area:header;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.title-area{display:flex;flex-direction:column}
+#taskForm{grid-area:form}
+#taskItem{grid-area:list;max-height:50vh;overflow:auto;padding:0;border:none}
+.stats-area{grid-area:stats;display:flex;flex-direction:column;align-items:flex-end;justify-content:flex-start}
+.stats-area .progress{width:100%;max-width:220px}
+
+@media(max-width:768px){
+	.card-body{grid-template-columns:1fr;grid-template-areas:"header" "form" "list" "stats"}
+	.stats-area{align-items:flex-start}
+	.stats-area .progress{max-width:100%}
+	#taskItem{max-height:none}
+}
+
+
